@@ -6,7 +6,69 @@
   background-color: white;
   border: 0.5px solid #999999;
   border-radius: 1%;
-  box-shadow: 0 0 18px #b3b3b3; }
+  box-shadow: 0 0 18px #b3b3b3; 
+  background-image: url('../burgers.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.c-article__rule {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  top: 145px;
+  border-top: 0.5px solid #999999;
+  border-bottom: 0;
+}
+
+.c-article__author {
+  position: absolute;
+  font-size: 0.8rem;
+  color: #737373;
+  top: 10.5rem;
+  left: 1rem;
+}
+
+.c-article__read_count {
+  position: absolute;
+  font-size: 0.8rem;
+  color: #737373;
+  top: 10.5rem;
+  right: 1rem;
+}
+
+.c-article__title {
+  margin-top: 12.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  text-transform: capitalize;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.c-article__category {
+  width: 3.6rem;
+  height: 3.6rem;
+  background-color: #F8F8F8;
+  border: 0.5px solid #999999;
+  border-radius: 100%;
+  position: absolute;
+  top: 7.7rem;
+  left: 8.2rem;
+  z-index: 2;
+}
+
+.c-article__category_logo {
+  position: absolute;
+  top: 29%;
+  left: 29%;
+  border: 1.5px solid #999999;
+  padding: 0.2rem;
+  line-height: 0.7;
+  color: #999999;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
 
 .c-article__read_more {
   box-sizing: border-box;
@@ -23,3 +85,11 @@
   font-weight: bold;
   font-size: 0.9rem;
   padding-left: 1.5rem; }
+
+.c-article__arrow {
+  float: right;
+  padding-right: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
