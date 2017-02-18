@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import ArticlePanel from './components/ArticlePanel'
+import './index.css'
 
 ReactDOM.render(
-  <App />,
+  <ArticlePanel />,
   document.getElementById('root')
-);
+)

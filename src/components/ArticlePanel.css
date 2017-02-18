@@ -7,7 +7,7 @@
   border: 0.5px solid #999999;
   border-radius: 1%;
   box-shadow: 0 0 18px #b3b3b3; 
-  background-image: url('../burgers.png');
+  background-image: url('../images/burgers.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
