@@ -1,0 +1,25 @@
+.c-article {
+  margin: 0 auto;
+  position: relative;
+  width: 20rem;
+  height: 22.8rem;
+  background-color: white;
+  border: 0.5px solid #999999;
+  border-radius: 1%;
+  box-shadow: 0 0 18px #b3b3b3; }
+
+.c-article__read_more {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-top: 0.5px solid #d9d9d9;
+  height: 3.4rem;
+  width: 100%;
+  border-bottom-left-radius: 4%;
+  border-bottom-right-radius: 4%;
+  line-height: 3.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding-left: 1.5rem; }
