@@ -38,12 +38,15 @@
 }
 
 .c-article__title {
-  margin-top: 12.5rem;
+  margin-top: 12.7rem;
   text-align: center;
-  line-height: 2.5rem;
+  line-height: 2.8rem;
   text-transform: capitalize;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #333333;
 }
 
 .c-article__category {
@@ -82,9 +85,14 @@
   border-bottom-right-radius: 4%;
   line-height: 3.4rem;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 0.9rem;
+  color: #333333;
   padding-left: 1.5rem; }
+
+.c-article__read_more:visited {
+  color: #333333;
+}
 
 .c-article__arrow {
   float: right;
@@ -92,4 +100,5 @@
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 3rem;
+  color: #333333;
 }
