@@ -102,3 +102,25 @@
   line-height: 3rem;
   color: #333333;
 }
+
+.flash-enter {
+  width: 0%;
+}  
+
+.flash-enter.flash-enter-active {
+  width: 100%;
+  transition: width 150ms ease-in 5ms;
+}
+
+.progress-bar {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  background: #d9d9d9;
+}
+
+.flip-page {
+  width: 100%;
+  height: 100%;
+  background: black;
+}  
