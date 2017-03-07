@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ArticlePanel from './components/ArticlePanel'
+import PanelIndex from './components/PanelIndex'
 import './index.css'
 
 ReactDOM.render(
-  <ArticlePanel />,
+  <PanelIndex />,
   document.getElementById('root')
 )

@@ -1,0 +1,16 @@
+.container{
+  perspective: 800px;
+}
+
+.article-panel {
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.article-panel .c-article-back {
+  transform: rotateY( 180deg );
+}
+
+.article-panel.flipped {
+  transform: rotateY( 180deg );
+}

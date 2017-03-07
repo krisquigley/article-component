@@ -1,6 +1,6 @@
 .c-article {
-  margin: 0 auto;
   position: relative;
+  margin: 0 auto;
   width: 20rem;
   height: 22.8rem;
   background-color: white;
@@ -10,6 +10,20 @@
   background-image: url('../images/burgers.png');
   background-size: contain;
   background-repeat: no-repeat;
+  backface-visibility: hidden;
+}
+
+.c-article-back {
+  background-color: white;
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  right: 41.6%;
+  width: 20rem;
+  height: 22.8rem;
+  border-radius: 1%;
+  backface-visibility: hidden;
+  z-index: 2;
 }
 
 .c-article__rule {
@@ -88,7 +102,8 @@
   font-weight: 900;
   font-size: 0.9rem;
   color: #333333;
-  padding-left: 1.5rem; }
+  padding-left: 1.5rem;
+  cursor: pointer; }
 
 .c-article__read_more:visited {
   color: #333333;
@@ -118,9 +133,3 @@
   position: absolute;
   background: #d9d9d9;
 }
-
-.flip-page {
-  width: 100%;
-  height: 100%;
-  background: black;
-}  
