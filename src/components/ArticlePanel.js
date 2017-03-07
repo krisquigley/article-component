@@ -20,10 +20,10 @@ class ArticlePanel extends Component {
     return (
       <div>
         <div className='c-article' onClick={this.handleAdd}>
+          <hr className='c-article__rule' />
           <div className='c-article__category'>
             <span className='c-article__category_logo'>≡</span>
           </div>
-          <hr className='c-article__rule' />
           <span className='c-article__author'>
             Dave Smith
           </span>

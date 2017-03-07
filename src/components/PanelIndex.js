@@ -5,12 +5,13 @@ import './PanelIndex.css'
 class PanelIndex extends Component {
   constructor (props) {
     super(props)
-    this.state = {panelClass: 'article-panel'}
+    this.state = { panelClass: 'article-panel' }
     this.loadPage = this.loadPage.bind(this)
   }
 
   loadPage () {
-    setTimeout(() => {this.setState({panelClass: 'article-panel flipped'})}, 200)
+    setTimeout(() => { this.setState({panelClass: 'article-panel flipped'}) }, 200)
+    setTimeout(() => { this.setState({panelClass: 'article-panel flipped expand'}) }, 1000)
   }
 
   render () {

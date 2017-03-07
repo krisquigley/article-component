@@ -1,6 +1,6 @@
 .c-article {
   position: relative;
-  margin: 0 auto;
+  margin: 2rem auto;
   width: 20rem;
   height: 22.8rem;
   background-color: white;
@@ -18,12 +18,11 @@
   position: absolute;
   margin: 0 auto;
   top: 0;
-  right: 41.6%;
-  width: 20rem;
+  right: 36.2%;
+  width: 20.1rem;
   height: 22.8rem;
   border-radius: 1%;
   backface-visibility: hidden;
-  z-index: 2;
 }
 
 .c-article__rule {
@@ -72,7 +71,7 @@
   position: absolute;
   top: 7.7rem;
   left: 8.2rem;
-  z-index: 2;
+  z-index: 0;
 }
 
 .c-article__category_logo {
